@@ -12,15 +12,13 @@ function App() {
 
   return (
     <div className="div">
+      <div className="editor_button">
+        <button className="btn btn-light" onClick={handleBoldClick}>B</button>
+        <button className="btn btn-light" onClick={handleItalicClick}>I</button>
+      </div>
       <div contentEditable={true} className="editor"> 
         <p>Hey,What are you doing..!</p>
       </div>
-     
-      <div className="editor_button">
-        <button className="btn btn-light" onClick={handleBoldClick}>Bold</button>
-        <button className="btn btn-outline-warning" onClick={handleItalicClick}>Italic</button>
-      </div>
-     
     </div>
   );
 }
