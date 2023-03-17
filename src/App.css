@@ -1,38 +1,17 @@
-.App {
-  text-align: center;
+.div{
+    position: relative;
+    height: 100vh;
+    background:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NCAcHCA0NBwcHBw0HBwcHDQ8ICQcNFREiIiARHxMYHSggGBolGx8fITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0NFQ8PFSsZFR0tLSsrKy0rKy0tKysrLSsrKysrLS0rKysrKysrKysrKysrNysrKysrKysrKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAgEDBAX/xAAXEAEBAQEAAAAAAAAAAAAAAAAAEQES/8QAGQEBAQADAQAAAAAAAAAAAAAAAAECBAUD/8QAGBEBAQEBAQAAAAAAAAAAAAAAABESAgH/2gAMAwEAAhEDEQA/APiQi4R61MohFxkKZRCLjItTKYyLhCplAuMhUiRUZFpGDYQSMGxkACAgAAAAAAAAAAAAAAAD0RkXCPKt3KIRcIVMucIuEWplEZHSMhUyiEXCLUy5wi4QqZRCKhCplEIuMhUyiEXCLUyiMi4QqZRCLhFplzguEKmUCoQqZSKjIqRg2ECMCEACNEe2Mi4Rr108ojIuEWplEItkKmUQi4QqZc4RcItMohFxkKmUQi4yLUymMi4QqZRGRcIVMohFxkWplEIuEKZRGRcIVjlEIuEWmXOEXGQqZRGxUIVMohFQhUymMXBamXujIuEa1dXKIyOkZCplEIuEWplzhFwhUyiMjpCFTLnCLjItMpjIuEKmUQioQqZRCLhFqZc4RcIVMojI6RkWplEIuEKZc4RcItTKIyLhCplEIuMi1MpjIuEKmUcioFMvdCKhGtXUyiEXCLUyiMi4QqZRCLjIVMohFxkWmUxkXCFY5RCLZCmUQi4yLUymMi4RamXOEdIyFTKIRcZCplEIuEKmUQioRUyiEVCFMohFwhUyiEVCLUyjkXAMvbCLhGtXUyiMi4RamURjpCFTLnCLhCplEZFwiplEIqEDKIRcIVMojIuEWplEIuMhUyiEXCFTKIyLhCplEIqNi1MucIuMi1MpjIuEKmUQi4yLTKIRcZCscpgqBTL3QioRrV1cohFxkWplEIuEKmURkXCFTKIyOkZFqZRCLjIVMpjIuEKZRCLjItTKIRcZCplEIuEWplEIuMhUyiG4uMi1MpjIuEKmUQioQTKIRcItTKIyLhCplEFwKZe2EXGRrV1cohFwi1MojIuEKmUQi4yLUyiEXCFT3lEZFwhUyiEXCLUy5wi4QplzhFwhUyiMjpGRamUQi4QqZc4RcIVMohFxkWplEIuEKmURkXCLUyiMi4QqZRBcCmXthFwjWdTKIyOkZCmUQi4yLUyiEXCFTKIyLhFqZRDcXGQqZQRcIVMojIuEWplEIuMi1MpjIuEKmXOEXCBlEIuEKxy5wi4yLTKIRcIVMohFxkVMohFxkKmUwVApl7AHg6IABCAEIyNCkZCNCpEwigplLIsVMohFwhUy5wi4QplEZHSMi1jlEIuMhTKIRcIVMucIuEWplEZFwi1MohFxkKmUQi4QqZRBcYUy7gPJtAAAAAAAAAAAAAAAAAAACkIyNCkZGRQVImEUFImMiyLUyiEVCCZRBcAy0BizAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9k=) center no-repeat;
+    background-size: cover;
+    padding: 50px  50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.editor {
+    border: 1px solid #ccc;
+    padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.editor_button{
+    margin: 20px 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.editor_button button {
+    margin: 0px 20px;
 }
